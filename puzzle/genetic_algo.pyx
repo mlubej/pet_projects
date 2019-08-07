@@ -244,7 +244,9 @@ class Individual(object):
 
 
 # Driver code
-def genetic_algo(population_size=100, mutation_rate=0.1, instance='inst', core=0):
+def genetic_algo(args):
+
+    population_size, mutation_rate, instance, core = args
 
     # current generation
     generation = 1
