@@ -5,5 +5,5 @@ from distutils.core import setup
 from Cython.Build import cythonize
 
 setup(
-    ext_modules = cythonize("solution.pyx")
+    ext_modules = cythonize("genetic_algo.pyx")
 )
