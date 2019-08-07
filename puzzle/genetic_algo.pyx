@@ -251,7 +251,7 @@ def genetic_algo(population_size=100, mutation_rate=0.1, instance='inst', core=0
 
     found = False
     population = [Individual(Individual.create_gnome()) for i in range(population_size)]
-    file = open(f'log_file_pop{str(population_size)}_mutrate{str(mutation_rate)}_{instance}_{str(core)}.txt','w')
+    file = open(f'~/data/log_file_pop{str(population_size)}_mutrate{str(mutation_rate)}_{instance}_{str(core)}.txt','w')
 
     while not found:
 
@@ -285,11 +285,11 @@ def genetic_algo(population_size=100, mutation_rate=0.1, instance='inst', core=0
         population = new_generation
 
         if generation % 10 == 0:
-            file.write("Generation: {}\tChromosome: {}\tFitness: {}".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
+            file.write("Generation: {}\tChromosome: {}\tFitness: {}\n".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
 
         generation += 1
 
-    file.write("Generation: {}\tChromosome: {}\tFitness: {}".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
+    file.write("Generation: {}\tChromosome: {}\tFitness: {}\n".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
     file.close()
 
     return population
