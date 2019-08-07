@@ -244,13 +244,14 @@ class Individual(object):
 
 
 # Driver code
-def genetic_algo(population_size=100, mutation_rate=0.1):
+def genetic_algo(population_size=100, mutation_rate=0.1, instance, core):
 
     # current generation
     generation = 1
 
     found = False
     population = [Individual(Individual.create_gnome()) for i in range(population_size)]
+    file = open(f'log_file_pop{population_size}_mutrate{mutation_rate}_{instance}_{core}.txt','w')
 
     while not found:
 
@@ -284,11 +285,12 @@ def genetic_algo(population_size=100, mutation_rate=0.1):
         population = new_generation
 
         if generation % 10 == 0:
-            print("Generation: {}\tChromosome: {}\tFitness: {}".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
-        
+            file.write("Generation: {}\tChromosome: {}\tFitness: {}".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
+
         generation += 1
-    print("Generation: {}\tChromosome: {}\tFitness: {}".format(generation,
-                                                               ','.join([str(x) for x in population[0].chromosome]),
-                                                               population[0].fitness))
+
+    file.write("Generation: {}\tChromosome: {}\tFitness: {}".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
+    file.close()
+
     return population
 
