@@ -292,5 +292,3 @@ def genetic_algo(population_size=100, mutation_rate=0.1, instance='inst', core=0
     file.write("Generation: {}\tChromosome: {}\tFitness: {}\n".format(generation, ','.join([str(x) for x in population[0].chromosome]), population[0].fitness))
     file.close()
 
-    return population
-

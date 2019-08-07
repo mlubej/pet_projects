@@ -1,8 +1,6 @@
-import time
 import numpy as np
 import genetic_algo
-
-import matplotlib.pyplot as plt
+from concurrent.futures import ProcessPoolExecutor
 import sys
 
 fblocks = np.array([
@@ -28,12 +26,16 @@ for block in fblocks:
     blocks.append(np.array(block))
 fblocks = np.array(blocks).copy()
 
-dcol = np.random.rand(len(fblocks),3)
+dcol = np.random.rand(len(fblocks), 3)
 
-start_time = time.time()
+inst = str(sys.argv[1])
+workers = int(sys.argv[2])
+size = int(sys.argv[3])
+mrate = float(sys.argv[4])
 
-result = genetic_algo.genetic_algo(int(sys.argv[1]), float(sys.argv[2]))
+arguments = [[size, mrate, inst, i] for i in range(workers)]
 
-elapsed_time = time.time() - start_time
-print(f'Elapsed time {elapsed_time:.2f} s')
-print(result[0].chromosome)
+with ProcessPoolExecutor(max_workers=workers) as executor:
+    executor.map(lambda p: genetic_algo.genetic_algo(*p), arguments)
+
+
