@@ -251,7 +251,7 @@ def genetic_algo(population_size=100, mutation_rate=0.1, instance='inst', core=0
 
     found = False
     population = [Individual(Individual.create_gnome()) for i in range(population_size)]
-    file = open(f'~/data/log_file_pop{str(population_size)}_mutrate{str(mutation_rate)}_{instance}_{str(core)}.txt','w')
+    file = open(f'/home/ubuntu/data/log_file_pop{str(population_size)}_mutrate{str(mutation_rate)}_{instance}_{str(core)}.txt','w')
 
     while not found:
 
