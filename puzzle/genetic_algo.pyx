@@ -265,6 +265,7 @@ def genetic_algo(args):
         # and break the loop
         if population[0].fitness <= 0:
             found = True
+            file.write('Done')
             break
 
         # Otherwise generate new offsprings for new generation
