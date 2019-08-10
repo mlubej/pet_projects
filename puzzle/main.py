@@ -28,14 +28,10 @@ fblocks = np.array(blocks).copy()
 
 dcol = np.random.rand(len(fblocks), 3)
 
-inst = str(sys.argv[1])
-workers = int(sys.argv[2])
-size = int(sys.argv[3])
-mrate = float(sys.argv[4])
+pop = int(sys.argv[1])
+inst = str(sys.argv[2])
+core = int(sys.argv[3])
 
-arguments = [[size, mrate, inst, i] for i in range(workers)]
-
-with ProcessPoolExecutor(max_workers=workers) as executor:
-    executor.map(lambda p: genetic_algo.genetic_algo(*p), arguments)
+genetic_algo.genetic_algo([pop, inst, core, './'])
 
 
