@@ -1,0 +1,14 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'test.blg'
+[18] biber:313> INFO - === sre nov 27, 2019, 01:18:41
+[34] Biber.pm:371> INFO - Reading 'test.bcf'
+[79] Biber.pm:857> INFO - Found 8 citekeys in bib section 0
+[89] Biber.pm:3981> INFO - Processing section 0
+[97] Biber.pm:4154> INFO - Looking for bibtex format file 'references.bib' for section 0
+[99] bibtex.pm:1468> INFO - LaTeX decoding ...
+[109] bibtex.pm:1294> INFO - Found BibTeX data source 'references.bib'
+[167] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[167] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'variable = shifted' with 'variable = non-ignorable'
+[167] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'sl-SI'
+[172] bbl.pm:617> INFO - Writing 'test.bbl' with encoding 'UTF-8'
+[179] bbl.pm:720> INFO - Output to test.bbl

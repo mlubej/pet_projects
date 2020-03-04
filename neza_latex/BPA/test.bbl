@@ -1,0 +1,412 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{yuan2019bisphenol}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,uniquepart=base,hash=e5e5b4576ef1fdee56abd194eef50b46}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Jianqin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a538214e2572102211ea7db35e9ac357}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Yanbiao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=69e9aea6a07e29982016c1eb2e46e376}{%
+           family={Ommati},
+           familyi={O\bibinitperiod},
+           given={Mohammad\bibnamedelima Mehdi},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1c5875f9f17855bf832b3fcbdd89904d}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Zhongwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eec8767f98fee28ac3088978d51c4432}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=502de95c3193f5c283f4ef712520a97e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=38b49b6880dc57886c71350b77776716}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Chengping},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=933a070edf82d16e576db4b5f24b1199}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Zongyong},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7c6607e933be8e91dc52f63d737ae75d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jundong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2b1deceef9482e49def2eba944a5a082}
+      \strng{fullhash}{3e11533b2532c6f9601f41e870f87d32}
+      \strng{bibnamehash}{2b1deceef9482e49def2eba944a5a082}
+      \strng{authorbibnamehash}{2b1deceef9482e49def2eba944a5a082}
+      \strng{authornamehash}{2b1deceef9482e49def2eba944a5a082}
+      \strng{authorfullhash}{3e11533b2532c6f9601f41e870f87d32}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemosphere}
+      \field{title}{Bisphenol A-induced apoptosis, oxidative stress and DNA damage in cultured rhesus monkey embryo renal epithelial Marc-145 cells}
+      \field{year}{2019}
+    \endentry
+    \entry{bernier2017handling}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b238bd7e278ea29808a1f1d16ad2c31a}{%
+           family={Bernier},
+           familyi={B\bibinitperiod},
+           given={Meghan\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=89ac03d6f4418b189087b05d76749cac}{%
+           family={Vandenberg},
+           familyi={V\bibinitperiod},
+           given={Laura\bibnamedelima N},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{edf65365e42eb065c6f3cf9b68b4b70c}
+      \strng{fullhash}{c2ab5c7a2d377483c9bbc8b10242160c}
+      \strng{bibnamehash}{c2ab5c7a2d377483c9bbc8b10242160c}
+      \strng{authorbibnamehash}{c2ab5c7a2d377483c9bbc8b10242160c}
+      \strng{authornamehash}{edf65365e42eb065c6f3cf9b68b4b70c}
+      \strng{authorfullhash}{c2ab5c7a2d377483c9bbc8b10242160c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{6}
+      \field{title}{Handling of thermal paper: Implications for dermal exposure to bisphenol A and its alternatives}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{e0178449}
+      \range{pages}{-1}
+    \endentry
+    \entry{mirmira2014bisphenol}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5df661b0c8a36bb53dbe46675a4faa4d}{%
+           family={Mirmira},
+           familyi={M\bibinitperiod},
+           given={Priyadarshini},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c8907cb230f8302b61107a9bed2ad71a}{%
+           family={Evans-Molina},
+           familyi={E\bibinithyphendelim M\bibinitperiod},
+           given={Carmella},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b4eebd59486c31f211e4a263d12b3764}
+      \strng{fullhash}{e126b173ccb6a07cf5adec2817a741eb}
+      \strng{bibnamehash}{e126b173ccb6a07cf5adec2817a741eb}
+      \strng{authorbibnamehash}{e126b173ccb6a07cf5adec2817a741eb}
+      \strng{authornamehash}{b4eebd59486c31f211e4a263d12b3764}
+      \strng{authorfullhash}{e126b173ccb6a07cf5adec2817a741eb}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Translational research}
+      \field{number}{1}
+      \field{title}{Bisphenol A, obesity, and type 2 diabetes mellitus: genuine concern or unnecessary preoccupation?}
+      \field{volume}{164}
+      \field{year}{2014}
+      \field{pages}{13\bibrangedash 21}
+      \range{pages}{9}
+    \endentry
+    \entry{canesi2015environmental}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=00e765e8f3dded24d8c367b5b5034349}{%
+           family={Canesi},
+           familyi={C\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1660e9d9781ac146498bfa2d23f08409}{%
+           family={Fabbri},
+           familyi={F\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{758e38668d86e22e3409c4162fd327ba}
+      \strng{fullhash}{396f6cad55dd74644f942e6806e30b4a}
+      \strng{bibnamehash}{396f6cad55dd74644f942e6806e30b4a}
+      \strng{authorbibnamehash}{396f6cad55dd74644f942e6806e30b4a}
+      \strng{authornamehash}{758e38668d86e22e3409c4162fd327ba}
+      \strng{authorfullhash}{396f6cad55dd74644f942e6806e30b4a}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dose-Response}
+      \field{number}{3}
+      \field{title}{Environmental effects of BPA: focus on aquatic species}
+      \field{volume}{13}
+      \field{year}{2015}
+      \field{pages}{1559325815598304}
+      \range{pages}{1}
+    \endentry
+    \entry{lombo2015transgenerational}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=63a3c77d1762b1e53c50dba2f5a8d5e1}{%
+           family={Lombo},
+           familyi={L\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c0e69c69ef3be6538823f0f9cbf1c1de}{%
+           family={Fernandez-Diez},
+           familyi={F\bibinithyphendelim D\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4861defb33acfdf4b227a977742c0844}{%
+           family={Gonzalez-Rojo},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dd3f94ab6dd6ffe9faaf44de7c64ec03}{%
+           family={Navarro},
+           familyi={N\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cc1135a329b5c45e64d0895d943302ae}{%
+           family={Robles},
+           familyi={R\bibinitperiod},
+           given={Vanesa},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e19d715007042a74f91efdcb39810ff6}{%
+           family={Herraez},
+           familyi={H\bibinitperiod},
+           given={Maria\bibnamedelima Paz},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{02687e804cf9c3e1c431803e6a5c2c84}
+      \strng{fullhash}{337b5d32abbf1b3d367c94bd80e644c8}
+      \strng{bibnamehash}{02687e804cf9c3e1c431803e6a5c2c84}
+      \strng{authorbibnamehash}{02687e804cf9c3e1c431803e6a5c2c84}
+      \strng{authornamehash}{02687e804cf9c3e1c431803e6a5c2c84}
+      \strng{authorfullhash}{337b5d32abbf1b3d367c94bd80e644c8}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental pollution}
+      \field{title}{Transgenerational inheritance of heart disorders caused by paternal bisphenol A exposure}
+      \field{volume}{206}
+      \field{year}{2015}
+      \field{pages}{667\bibrangedash 678}
+      \range{pages}{12}
+    \endentry
+    \entry{miyagawa2016bisphenol}{incollection}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=2da3af6b4cadba7f7c05ee2a634d663b}{%
+           family={Miyagawa},
+           familyi={M\bibinitperiod},
+           given={Shinichi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=797298ced88dffe7d7990a5355e76200}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Tomomi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0c8c8ccd4bfd2ad055d3a7f229c0e6f9}{%
+           family={Iguchi},
+           familyi={I\bibinitperiod},
+           given={Taisen},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{47380a44de6ab5eec6b1ccc22886dbaa}
+      \strng{fullhash}{d4c7e9752b9d469684e5fdeddd0933cd}
+      \strng{bibnamehash}{47380a44de6ab5eec6b1ccc22886dbaa}
+      \strng{authorbibnamehash}{47380a44de6ab5eec6b1ccc22886dbaa}
+      \strng{authornamehash}{47380a44de6ab5eec6b1ccc22886dbaa}
+      \strng{authorfullhash}{d4c7e9752b9d469684e5fdeddd0933cd}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Hormones}
+      \field{title}{Bisphenol A}
+      \field{year}{2016}
+      \field{pages}{577\bibrangedash 578}
+      \range{pages}{2}
+    \endentry
+    \entry{chung2011effects}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=abc7a19f8d3d0a038b3445ecb04dfe2a}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Eunah},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=077c19f0c408ee21ba8b007682c7a2a1}{%
+           family={Genco},
+           familyi={G\bibinitperiod},
+           given={Maria\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ca9c87c9ceed6bbcdd9403928b813d0b}{%
+           family={Megrelis},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=141508228a731100a57243f8dbbeaff8}{%
+           family={Ruderman},
+           familyi={R\bibinitperiod},
+           given={Joan\bibnamedelima V},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{f367ba1447e5226a14599335f723eb4d}
+      \strng{fullhash}{bed9c79ba78efcfe60787942a31fc51a}
+      \strng{bibnamehash}{f367ba1447e5226a14599335f723eb4d}
+      \strng{authorbibnamehash}{f367ba1447e5226a14599335f723eb4d}
+      \strng{authornamehash}{f367ba1447e5226a14599335f723eb4d}
+      \strng{authorfullhash}{bed9c79ba78efcfe60787942a31fc51a}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{43}
+      \field{title}{Effects of bisphenol A and triclocarban on brain-specific expression of aromatase in early zebrafish embryos}
+      \field{volume}{108}
+      \field{year}{2011}
+      \field{pages}{17732\bibrangedash 17737}
+      \range{pages}{6}
+    \endentry
+    \entry{wolstenholme2011role}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=991489b4c7ef4f2b5201ea53301fd819}{%
+           family={Wolstenholme},
+           familyi={W\bibinitperiod},
+           given={Jennifer\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4d4b9db4f115b109b855945b9299d00c}{%
+           family={Rissman},
+           familyi={R\bibinitperiod},
+           given={Emilie\bibnamedelima F},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e2ae75e0ca10066aa12983947fa60c5a}{%
+           family={Connelly},
+           familyi={C\bibinitperiod},
+           given={Jessica\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d99f0efce1b318bf56629468122b24c9}
+      \strng{fullhash}{0d380c8ae76e08564ec00b0a3864b1a6}
+      \strng{bibnamehash}{d99f0efce1b318bf56629468122b24c9}
+      \strng{authorbibnamehash}{d99f0efce1b318bf56629468122b24c9}
+      \strng{authornamehash}{d99f0efce1b318bf56629468122b24c9}
+      \strng{authorfullhash}{0d380c8ae76e08564ec00b0a3864b1a6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Hormones and behavior}
+      \field{number}{3}
+      \field{title}{The role of Bisphenol A in shaping the brain, epigenome and behavior}
+      \field{volume}{59}
+      \field{year}{2011}
+      \field{pages}{296\bibrangedash 305}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

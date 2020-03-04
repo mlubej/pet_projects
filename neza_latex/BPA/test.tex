@@ -1,0 +1,91 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+\usepackage{glossaries}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{siunitx}
+\usepackage{isomath}
+\usepackage[pdftex,colorlinks=true,citecolor=blue,linkcolor=black,urlcolor=black,bookmarks=true]{hyperref}
+
+\usepackage[
+	bibstyle=authoryear,
+    citestyle=authoryear,
+    sorting=none,
+    minbibnames=1,
+    maxbibnames=2,
+    maxcitenames=1,
+    giveninits=true
+    ]{biblatex}
+\addbibresource{references.bib}
+\defbibenvironment{bibliography}
+  {\begin{enumerate}}
+  {\end{enumerate}}
+  {\item}
+
+
+\newcommand {\e}[1]{\mathrm{~#1}} % za pisanje enot
+\newcommand {\E}[1]{\times 10^{#1}}	% za pisanje desetiskih eksponentov
+
+% no indent
+\setlength{\parskip}{\baselineskip}%
+\setlength\parindent{0pt}
+
+
+\title{Bisfenol A (BPA)}
+
+\author[1]{Pajek Arambašić Neža}
+\affil[1]{Univerza v Ljubljani, Biotehniška fakulteta, Oddelek za biologijo}
+\date{}
+\renewcommand\Affilfont{\itshape\small}
+
+\begin{document}
+\maketitle
+
+%\begin{abstract}
+%This is the paper's abstract \ldots
+%\end{abstract}
+
+\section*{Uvod}
+Bisfenol A (BPA) je eden izmed umetno sintetiziranih analogov steroidnih hormonov. Uporablja se pri izdelovanju polikarbonatne plastike, ki jo srečamo v obliki embalaže za ponovno uporabo, ter epoksi smole, iz katere premaz služi preprečevanju korozije in kontaminacije živil. BPA lahko najdemo tudi v plastični in papirnati embalaži s polivinil kloridom. Bisfenol A je problematičen zato, ker iz materiala prehaja v vodo ali živila, od koder prehaja v organizme. Je endokrini motilec, ki lahko oponaša telesu lastne hormone. Kot ksenoestrogen oponaša estrogene in se v telesu veže na estrogenske receptorje ($\alpha$, $\beta$ ter membranske) ter tako vpliva na mnoge funkcije organov s tarčnimi mesti za estrogen. Povezujejo ga z razvojem kardiovaskularnih bolezni, raka na prostati in mlečnih žlezah, z motnjami v embrionalnem razvoju, s spremenjenim vedenjem živali, težavami v razvoju možganov, spremembami spola itd. Najbolj na udaru so vodni organizmi, saj vodna telesa služijo kot rezervoar za raztopljen BPA, ki pa ga zaenkrat v čistilnih napravah še ne odvajamo iz sistema. 
+
+\subsection*{Terminološko-pojmovni slovar}
+Aromataza – encim, ki je odgovoren za biosintezo estrogenov\\
+Bisfenol A (BPA) – endokrini motilec, prekurzor polikarbonatne plastike in epoksi smole\\
+Estradiol (E2) – najbolj zastopana oblika estrogena,  pomemben spolni hormon\\
+Glukoneogeneza – metabolni proces nastanka glukoze iz snovi, ki niso ogljikovi hidrati\\
+Ksenoestrogen –  sintetična ali naravna snov, ki oponaša hormon estrogen\\
+Vitelogenin – prekurzorski protein rumenjaka\\
+
+\section*{Splošno o bisfenolu A}
+Bisfenol A je bil sprva sintetiziran kot analogni steroidni hormon v tridesetih letih prejšnjega stoletja, kasneje pa so ugotovili, da lahko BPA uporabijo v industriji plastike in epoksi smole. BPA je razcvet uporabe doživel v obliki premazov iz epoksi smole na notranji strani pločevink in v poliakrilni plastiki, ki jo najdemo vsepovsod {\color{red} (Gilbert, 2016)}. BPA se lahko zasledi tudi v zobnih prevlekah, zobozdravniških napravah in hišni elektroniki \parencite{yuan2019bisphenol}, ter pri termalnem papirju, ki ga uporabljamo za tiskanje računov \parencite{bernier2017handling}. BPA v materialih ni obstojen, temveč sčasoma difundira v medij, s katerim je v stiku, od tam pa v okolje. Različne koncentracije BPA so bile zaznane v večini bioloških tekočin \parencite{yuan2019bisphenol}. Skrb glede negativnih vplivov BPA sicer hitro narašča, vendar se njegova proizvodnja iz leta v leto povečuje. Leta 2012 je Zvezna agencija za prehrano in zdravila (FDA) prepovedala uporabo BPA v izdelkih za dojenčke in otroke, zaradi skrbi potrošnikov glede vpliva BPA. Kljub temu pa stališe FDA še ostaja pri tem, da je BPA v nizkih koncentracijah varen za človeka \parencite{mirmira2014bisphenol}.
+
+Bisfenol A ima kot okoljska kontaminanta velik vpliv na okolje, še posebej na vodne organizme. Kot za mnoge druge kemikalije tudi za bisfenol A velja, da so njegov glavni rezervoar v naravi  vodna telesa, zatorej tudi glavnina raziskav vpliva BPA na živa bitja temeljijo na vodnih organizmih s poudarkom na ribah. Večina študij so izvedli v laboratorijskih kontroliranih pogojih, saj je študij v naravnih populacijah zelo težaven na račun dejstev, da BPA v naravi močno niha, da je del kompleksne mešanice kemičnih stresorjev, ter da so različni organizmi različno dovzetni za ksenobiotike \parencite{canesi2015environmental}. BPA je bil v preteklih letih povezan z estrogensko aktivnostjo, tako na genetskem kot na epigenetskem nivoju. 
+
+\section*{Bisfenol A kot endokrini motilec}
+Glavna značilnost endokrinih motilcev je mimikrija naravnih hormonov. Med njih spadajo dietilstilbestrol (DES), insekticid DDT, poliklorinirani bifnenili (PCB) in morda najpomembneši bisfenol A (BPA). Slednji med drugim organizmu v embrionalnem razvoju lahko povzroči, da je kasneje v življenju (v času pubertete) bolj odziven za druge steroidne hormone {\color{red} (Gilbert, 2016)}. BPA se lahko veže na estrogenske ($\alpha$, $\beta$ ter membranske) receptorje, receptorje GPER, androgene receptorje, tiroidne receptorje in inzulinske receptorje \parencite{lombo2015transgenerational}. BPA je šibek ksenoestrogen, ki naj bi bil od 1000 do 2000 krat manj učinkovit kot estradiol E2 {\color{red} (Hejmej, 2011)}, vendar se lahko začne nabirati v višjih koncentracijah, v primeru daljše izpostavljenosti. Živali, ki se še razvijajo, so veliko bolj dovzetne za izpostavljenost BPA in drugim endokrinim motilcem od odraslih živali \parencite{miyagawa2016bisphenol}. Že koncentracija \SI{300}{\micro g/L} (količina BPA ki vstopi v vodo če en teden stoji v stari polikarbonatni posodi na sobni temperaturi) je biološko aktivna, kar pomeni da lahko spremeni spol žabam, ali spremeni težo embria breje miši. Prav tako lahko povzroča kromosomske anomalije. Opičji {\color{red}embriji} ženskega spola, ki so jih izpostavili nizkim koncentracijam BPA (primerljivim s koncentracijami v krvni plazmi pri človeku), so imeli moteno delovanje ovarijev, kromosomske napake pri mejozi ter deformirano oblikovanje jajčnih foliklov {\color{red} (Gilbert, 2016)}.
+
+
+\section*{Primeri vpliva bisfenola A pri vodnih organizmih}
+Pri ribah glavnina BPA vanje ne vstopa s hrano ampak čez škrge. BPA povzroča sintezo in izločanje proteina vitelogenina pri samcih. Vitelogenin je velik fosfolipoglikoproteinski prekurzor za proteine rumenjaka in je skupen vsem oviparnim vretenčarjem, ter je nujno potreben za normalno zorenje oocit. Nastaja v jetrih in se sprošča v kri, njegov nastanek pa regulira estrogen. Produkcija vitelogenina je {\color{red}načeloma} zasledljiva samo v odraslih samicah, pri izpostavljenosti BPA pa ga začnejo {\color{red}proizvajati} tudi samci. 
+
+Pri testiranju mavričnih postrvi oz. šarenk ({\it Oncorhynchus mykiss}) pa so opazili druge probleme. Začasna izpostavitev jajc bisfenolu A tri ure pred oploditvijo ni vplival na uspešnost oploditve, je pa zamaknil izleganje, reabsorbcijo rumenjaka, rast in prvo hranjenje za približno 7 dni v primerjavi s kontrolno skupino. Kljub temu, da je koncentracija BPA v naslednjih 13 dneh upadla za kar \SI{90}{\percent}, v 31 dneh pa BPA ni bilo več zaslediti, so pri odraslih ribah zasledili motnje v koncentracijah kortizola in glukoze v krvi v odgovoru na stresorje, kar nakazuje na metabolne napake v zgodnji embriogenezi \parencite{canesi2015environmental}.
+
+BPA lahko na organizem vpliva tudi preko drugih encimov. Encim aromataza lahko spremeni testosteron v estrogen. Pri želvah estrogen zatira ekspresijo genov za razvoj testisov in spodbuja ekspresijo genov za razvoj ovarijev {\color{red} (Gilbert, 2016)}. Pri zebricah ({\it Danio rerio}), vezava BPA na estrogenske receptorje aktivira gene za sintezo aromataze. Če so samce zebric izpostavili sintetičnim estrogenom, se postale interseksualne in se niso mogle razmnoževati \parencite{chung2011effects}. Prav tako so pri zebricah pokazali, da je z estrogenom {\color{red}povezan} receptor (ERRy) mediator deformiranja otolitov (struktura notranjega ušesa) zaradi vezave BPA. Vezava BPA je zablokirala te receptorje. Pri sesalcih se prek ERRy receptorjev regulira ekspresija genov glukoneogeneze, tako da predvidevajo, da bi bisfenol A znal povzročati resne presnovne probleme, ki pa zaenkrat še niso raziskani.  
+
+Vpliv BPA na spol osebkov so opazili tudi pri vodnih plazilcih. Pri nekaterih vrstah je spol odvisen od temperature, pri kateri se jajca inkubirajo v nekem določenem časovnem oknu razvoja. Pri krokodilih ({\it Caiman latirostris}) se pri \SI{30}{\celsius} v embrijih razvijejo ovariji, pri \SI{33}{\celsius} pa testisi. Ko pa so embrie izpostavili BPA (\SI{1000}{\micro g/jajce}) so ne glede na temperaturo vsi razvili ovarije. Pri nižjih koncentracijah (\SI{90}{\micro g/jajce}) se je samo polovica jajc inkubiranih pri \SI{33}{\celsius} razvilo v samce, pri čemer so imeli spremenjene semenske kanalčke.
+
+Mnogo raziskav poroča o vplivu BPA na delovanje gonad vodnih organizmov že pri okoljsko relevantnih koncentracijah ($<$\SI{12}{\micro g/L}). Že pri (\SI{1}{\micro g/L}) so zasledili umanjšano številčnost in mobilnost spermijev potočne postrvi ({\it Salmo trutta}). Po tromesečnem obdobju s $2-$\SI{5}{\micro g/L} BPA v vodi, so imele ribe ({\it Pimephales promelas}) zakasnjeno ali povsem prekinjeno ovulacijo. Pri krapu ({\it Cyprinus carpio}) je dvotedenska izpostavitev \SI{1}{\micro g/L} BPA povzročila spremembe strukture gonad pri samcih in oocit pri samicah. Spremembe strukture gonad so spremenile tudi njihovo endokrino aktivnost, kar je privedlo do zmanjšanja spolnih hormonov v krvni plazmi \parencite{canesi2015environmental}.
+
+\section*{Transgeneracijski epigenetski učinek bisfenola A}
+Epigenetko se lahko dedujejo tako spremmebe transkriptoma kot epigenoma zarodnih celic. Prve epigenetske spremembe zaradi BPA so opazili pri rumeni agouti miši ($\mathrm{A^{vy}}$), ko je imela druga generacija zaradi maternalne izpostavitve BPA spremenjeno barvo kožuha na račun upada določenih CpG mest metilacije genoma \parencite{lombo2015transgenerational}. 
+
+Ko so breje miši ({\it Mus musculus}) hranili s hrano, ki je vsebovala BPA in v njihovi krvi izmerili tako koncentracijo, kot jo sicer izmerijo pri človeku, so bili njihovi potomci manj socialni od kontrolne skupine. BPA naj bi vplival na transkripcijo oksitocina in vazopresina v možganih, ki sta pomembna mediatorja pri socialnih vedenjih. Vedenjske posledice so lahko pri miših opazili tudi v tretji generaciji, kar je značilno za transgeneracijski učinek epigenetskega dedovanja \parencites{wolstenholme2011role}. 
+
+\section*{Zaključek}
+Bisfenol A je ena bolje raziskanih {\color{red}kemikalij} na račun nasprotujočih si mnenj tako v poljudni kot v znanstveni literaturi. Ker pa je BPA endokrini motilec, ki oponaša steroidni hormon estrogen, za katerega je značilno da prehaja prosto skozi membrane, deluje že pri zelo nizkih koncentracijah ter ima zelo {\color{red}pomembne} biološke funkcije, je pomembno da se njegova uporaba ter izpust v okolje strogo regulirata. V laboratorijskih pogojih so pokazali, da BPA pomembno vpliva pri embrionalnem razvoju, reproduktivnem zdravju, determinaciji spola in mnogih bolezenskih stanjih, vendar so si rezultati pogosto nasprotujoči, zato bo na področju potrebnih še veliko raziskav.
+
+\printbibliography
+
+\end{document}

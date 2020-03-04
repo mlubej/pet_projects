@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{0.5em}
+
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+
+\title{Conway's Game of Life -- Python}
+\date{}
+
+\vspace*{-3cm}
+{\let\newpage\relax\maketitle}
+
+\maketitle
+
+\vspace{-2cm}
+
+\section{Introduction}
+The Game of Life is not your typical computer game. It is a 'cellular automaton', and was invented by Cambridge mathematician John Conway.
+
+This game became widely known when it was mentioned in an article published by Scientific American in 1970. It consists of a collection of cells which, based on a few mathematical rules, can live, die or multiply. Depending on the initial conditions, the cells form various patterns throughout the course of the game. 
+
+\section{The Rules}
+For a space that is 'populated':
+\begin{itemize}
+	\item Each cell with one or no neighbors dies, as if by solitude. 
+	\item Each cell with four or more neighbors dies, as if by overpopulation. 
+	\item Each cell with two or three neighbors survives. 
+\end{itemize}
+
+For a space that is 'empty' or 'unpopulated':
+\begin{itemize}
+	\item Each cell with three neighbors becomes populated. 
+\end{itemize}
+
+\section{Instructions}
+
+Your task is to do the following:
+
+\begin{itemize}
+	\item Provide a number $n$ which creates a random 2D array (populated or empty cells) of the size $n \times n$.
+	\item Each step (a.k.a. life cycle) the program should take the 2D array and for each cell it should check if the cell survives, dies, or is reborn, based on the rules defined above. The output in this case is a new 2D array.
+	\item You should also provide the number of steps to perform. The 2D arrays for all steps should be saved into a single array and in the end saved into a {\tt .pickle} file.
+	\item Create an animation using python. This will definitely take some google-fu, but I'm sure you'll get it. The easiest approach is to plot the 2D matrix and save the plots to some directory, then find some python libraries to create a movie/gif animation out of these images.
+\end{itemize}
+
+{\bf Try to use a Jupyter notebook for this one!}
+
+Good Luck!
+
+\end{document}
