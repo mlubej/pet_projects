@@ -32,25 +32,16 @@ def calc_score(profile, poly, setting):
     poly = transform(poly, *setting)
 
     if not poly.within(profile):
-        return None
+        return np.nan, None
 
     diff = profile.difference(poly)
 
     if type(diff) == MultiPolygon:
-        return None
+        return np.nan, None
     else:
         outline = calc_outlines(diff)
 
-    return outline
-
-
-def new_profile(profile, poly, setting=[[0, 0], 0, 1]):
-    poly = transform(poly, *setting)
-    if not poly.within(profile):
-        return None
-
-    diff = profile.difference(poly)
-    return diff
+    return outline, diff
 
 
 def get_unique_rflips(poly):
@@ -79,11 +70,13 @@ def opt_placement(profile, poly):
 
     iterables = [pos, rflips]
     settings = np.array(list(itertools.product(*iterables)))
+    settings = np.array([[s[0], *s[1]] for s in settings])
 
-    conf = [[[s[0], *s[1]], calc_score(profile, poly, [s[0], *s[1]])] for s in settings]
-    conf = np.array([c for c in conf if c[-1] is not None], dtype=object)
-    conf = conf[np.argsort(conf[:, -1])]
-    return conf[0, 0]
+    scores, profiles = np.array([calc_score(profile, poly, s) for s in settings]).T
+    scores = scores.astype(float)
+    opt_id = np.argsort(scores)[0]
+    if profiles[opt_id] is not None:
+        return settings[opt_id], profiles[opt_id]
 
 
 def cantor(a, b):
@@ -96,8 +89,7 @@ def calc_fitness(chromosome):
     for idx, c in enumerate(chromosome):
         p = polygons[c]
         try:
-            opt = opt_placement(profile, p)
-            profile = new_profile(profile, p, opt)
+            opt, profile = opt_placement(profile, p)
             placements[idx] = opt
         except:
             break
